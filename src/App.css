@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+.instruction-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+.instruction-list li {
+  align-items: flex-start;
+}
+
+.instruction-number {
+  display: inline-block;
+  min-width: 2em; 
+  text-align: right;
+  font-weight: bold;
+}
+
+.exam-fullscreen {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  background: white; /* Optional: for better contrast */
+}
+
+.form-check-input {
+    accent-color: #007bff; /* Bootstrap primary color */
+    width: 1.2em;
+    height: 1.2em;
+  }
